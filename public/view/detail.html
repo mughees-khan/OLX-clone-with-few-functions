@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="../olx.css">
+</head>
+<body>
+    
+    <div id="home-page" class="main-page">
+        <img src="../images/olx icon.png" alt="olx icon">
+        <div class="country-select">
+            <img class="search-icon"  src="../images/search icon.png" alt="">
+            <select name="country" id="selection" >
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Germany">Germany</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="WestIndies">WestIndies</option>
+            </select>
+        </div>
+        <div class="product-select">
+            <input class="search-product" type="text" placeholder="Find Cars, Mobile phones and more...">
+            <img class="search-icon-product" src="../images/search icon.png" alt="searc icon">
+        </div>
+        
+        <a class="login" href="../login/login.html">Login</a>
+    
+        <a href="../form/form.html"><button class="sell-btn">Sell</button></a>
+        
+        
+    </div>
+
+
+    <img class="ad-img" src="../images/olx add img.png" alt="adds img">
+
+    <div id="detail">
+
+       
+    </div>
+    <button onclick='initiateChat()' class="chat-btn">Chat</button>
+</body>
+        <script type="module" src="../config/firebase.js"></script>
+        <script type="module" src="../js/addform.js"></script>
+        <script type="module" src="detail.js"></script>
+</html>

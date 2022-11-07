@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="../olx.css">
+</head>
+<body class="login-site">
+    <div class="form-style">
+    <input class="in" type="email" placeholder="enter your email"><br>
+    <input  class="in" type="password" placeholder="enter your password"><br>
+
+
+    <p class="already">you have no account?<a href="signup.html">signup</a></p>
+    <p id="error" style="color: red;"></p>
+
+    <button class="inBtn" onclick="signIn()">login</button>
+   
+    <br><br><br><br><br><br>
+</div>
+</body>
+<script type="module" src="../config/firebase.js"></script>
+<script type="module" src="../js/addform.js"></script>
+</html>

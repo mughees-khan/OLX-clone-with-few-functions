@@ -1,0 +1,290 @@
+.main-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#selection{
+    width: 270px;
+    height: 40px;
+    font-size: larger;
+    border-color: aliceblue;
+}
+.country-select{
+    border-radius: 5px 5px;
+    width: 250px;
+    height: 45px;
+    display: flex;
+    border: 2px solid #000000;
+}
+.search-icon{
+    width: 20px; 
+    height: 20px;
+    margin-top: 10px;
+}
+.product-select{
+    display: flex;
+}
+.search-icon-product{
+    border: 2px solid green;
+    background-color: forestgreen;
+    width: 39px;
+    height: 43px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-product{
+    font-size: larger;
+    width: 600px;
+    height: 45px;
+    border: 2px solid green;
+    padding-left: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+.sell-btn{
+    font-size: larger;
+    width: 90px;
+    height: 50px;
+    background-color: aqua;
+    border-width: 5px;
+    border-radius: 40px 40px;
+    border-bottom-color:rgb(71, 123, 186) ;
+    border-top-color:rgb(142, 0, 50) ;
+    border-right-color:rgb(26, 39, 32) ;
+    border-left-color:rgb(206, 188, 22) ;
+}
+.sell-btn:hover{
+    cursor: pointer;
+}
+.login{
+    color: #000000;
+    font-size:x-large;
+}
+#form{
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+.add-info{
+    width: 150px;
+    height: 20px;
+}
+
+.inputs-label{
+    display: flex;
+    justify-content: space-between;
+}
+#desc{
+    height: 50px;
+}
+#get-description{
+    width: 200px;
+    height: 50px;
+}
+.submit-btn{
+    background-color: #000000;
+    color: rgb(246, 251, 255);
+    width: 70px;
+    height: 30px;
+    border-radius: 4px 4px;
+}
+#adds-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#adds-home-page{
+    display: flex;
+    justify-content: space-around;
+}
+.image-size{
+    width: 300px;
+    height: 300px;
+}
+#show-adds-page{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 50px;
+}
+.card-body{
+    padding: 20px;
+}
+.card{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-color: rgb(255, 243, 243);
+    border-radius: 10px 10px;
+    border: 1px solid rgb(128, 128, 120);
+    
+}
+.card-img-top{
+    border-radius: 10px 10px 0px 0px;
+}
+.form-body{
+    background: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-site{
+    background-image: url(images/micah-williams-lmFJOx7hPc4-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-style{
+    background-color: rgb(14, 19, 19);
+    opacity: 0.8;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+.in{
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+}
+.form-site{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+}
+.ad-img{
+    width: 80%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.detail-ad{
+    display: flex;
+    justify-content: space-around;
+}
+.detail-card{
+    width: 700px;
+    height: 400px;
+    border:  2px solid gray;
+}
+.det-img{
+    width: 700px;
+}
+.title{
+    font-size: x-large;
+}
+.chat-btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(58, 120, 228);
+    color: #000000;
+    border-radius: 4px 4px;
+    margin-left: 1000px;
+}
+.det-left-side{
+    border: 2px solid rgb(213, 156, 156);
+    background-color: rgb(246, 239, 231);
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+}
+
+.chat-bottom-side{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+.chat-box{
+    background-color: #000000;
+}
+.send-btn{
+
+    width: 10%;
+    height: 35px;
+    border-radius: 8px 8px;
+    background-color: #13e652;
+    color: antiquewhite;
+    border-color: #13e652;
+}
+.chat-msg{
+width: 90%;
+height: 30px;
+background-color: aliceblue;
+border-radius: 8px 8px;
+border-color: antiquewhite;
+}
+#sendMessages{
+
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+}
+.text-msg{
+    text-align:center;
+}
+.txt-msg-style{
+    width: 50%;
+    
+    background-color: rgb(124, 255, 107);
+    color: #000000;
+    
+    border-radius: 0px 100px 0px 30px;
+    margin: 10px;
+    padding: 5px;
+    float: right;
+}
+.txt-msg-style-left{
+    width: 50%;
+    border-radius: 0px 100px 0px 30px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    background-color: rgba(208, 255, 80, 0.795);
+}
+.already{
+    color: aliceblue;
+    font-size: larger;
+}
+a{
+    color: rgb(79, 79, 243);
+    font-size: larger;
+    text-decoration: none;
+}
+.inBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(8, 65, 8);
+    color: aliceblue;
+    border: 1px solid rgb(8, 65, 8);
+    border-radius: 8px 8px;
+    cursor: pointer;
+}
+#ad-form{
+    background-color: #d100008f;
+    width: 400;
+    height: 300;
+    padding: 50px;
+}
+.post-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px 8px;
+    border: 1px solid #13e652;
+    background-color: #13e652;
+    color: aliceblue;
+    font-size: larger;
+}
+.dates{
+  
+    color: #000000;
+}
